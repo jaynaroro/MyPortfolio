@@ -1,0 +1,46 @@
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  outline: red solid 1px
+}
+
+.header a{
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #4D4D4D;
+  padding: 0 20px;
+}
+
+.header a:hover{
+  color: #161616;
+  text-decoration: underline;
+}
+
+.home-link{
+  margin-right: auto;
+}
+
+.footer{
+  height: 100px;
+  outline: red solid 1px
+}
+
+.home{
+  height: 100%;
+}
+
+.projects{
+  height: 100%;
+}
+
+.contact{
+  height: 100%;
+}
