@@ -4,7 +4,7 @@ export default function Footer()
 {
     return (
         <div className="footer">
-            <h1>This is a Footer</h1>
+             &#169; 2023 Jay Naroro
         </div>
     )
 }
