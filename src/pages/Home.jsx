@@ -6,16 +6,18 @@ import react from "../assets/react.png"
 import javascript from "../assets/javascript.png"
 import github from "../assets/github.png"
 import linkedin from "../assets/linkedin.png"
+import aws from "../assets/aws.png"
 
 
 
 export default function Home(){
+
     return (
         <div className="home">
             <div className="about">
                 <section className="about-text">
-                    <h1>Frontend - React Developer</h1>
-                    <p>Hi, Im Juma Naroro. A React Developer based in Nairobi, Kenya.</p>
+                    <h1>Software Developer</h1>
+                    <p>Hi, Im Juma Naroro. Computer Science graduate, Software Developer and AWS Cloud Practitioner based in Nairobi, Kenya.</p>
                     <section className='social-icons'>
                         <a href="https://www.linkedin.com/in/jay-naroro/" target="_blank" rel="noopener noreferrer"> <img src={linkedin} /> </a>
                         <a href="https://github.com/jaynaroro" target="_blank" rel="noopener noreferrer" > <img src={github} /> </a>
@@ -24,7 +26,7 @@ export default function Home(){
                 <section className="about-image"><img className="profile-style" src={profilePhoto}/></section>
             </div>
             <div className="dev-stack">
-                Dev Stack | <span className='dev-icons'><img src={html}/> <img src={javascript}/> <img src={css} /> <img src={react} /> </span>
+                Dev Stack | <span className='dev-stack-images'> <img src={html}/> <img src={javascript}/> <img src={css}/> <img src={react}/> </span>
             </div>
         </div>
     )
